@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+	<head>
+		<title>Sowmini - Tech enthusiast</title>
+	</head>
+	
+	<body>
+		<!-- Link to Stylesheets -->
+		<%= stylesheet_link_tag "styles" %>
+		<div id="header">
+			Sowmini Gundamraju
+			<h7><i>Web development enthusiast</i></h7>
+		</div>
+		
+		<div id="mainmenu">
+			<ul class="menu">
+				<li><%= link_to "Home", :controller => "home" , :action => "index	"%></li>
+				<li><%= link_to "Research Assistantship Projects", :controller => "home", :action => "RAProjects" %></li>
+				<li><%= link_to "Undergraduate Projects", :controller => "home", :action => "UGProjects" %></li>
+				<li><%= link_to "Graduate Projects", :controller => "home" , :action => "MSProjects" %></li>
+				<li><%= link_to "Blog", :controller => "home" , :action => "Blog"%></li>
+			</ul>
+		</div>
+		
+		<div id="content-wrap">
+			<p>
+				I am a Graduate student pursuing my Masters degree in Computer Science. I am passionate about 
+				web development, so I end up trying different programming languages and related frameworks. 
+			</p>
+			<p>	
+				My work demands me to use ASP.Net with C# for web application development. 
+				Recently, I got my hands on Ruby on Rails and started learning to develop 
+				applications in it. The MVC architechture, DRY concepts of Rails framework 
+				were fascinating and helped me develop my first full-fledged "TrackMyDiet" 
+				Rails web application.
+			</p>
+			<p>
+				The current world revolves around smartphones and applications are getting 
+				more and more handy as we see hundreds of mobile applications getting released 
+				every single day. This very fact motivated me to develop an Android application 
+				as my final Graduate project which is currently under development. Keep visiting 
+				the site frequently for updates on that :)..  
+			</p>
+			<p>
+				**Write about the Oracle 2010 Developers' conference...
+			</p>
+			<p>
+				**Write about FLEX (with ASP.net) application development (Screenshots)..  
+			</p>
+			<p>
+				I am looking for a career in Ruby on Rails and mobile application development. Though
+				I have my Graduate project that is yet to be finished, I would want to continue my work 
+				this domain and contribute by accepting a related job. I am comfortable with coding in
+				Ruby on Rails(2.3.5), Java, (X)HTML, CSS, Javascript, ASP.Net (3.0/3.5), C#, classic ASP, 
+				and can get by with Visual Basic and C++.
+			</p>
+			<p>
+				My exposure to Penetration testing, Network, and Application security gave me the 
+				opportunity	me to work on varied OS's like Ubuntu, Fedora, CentOS, BackTrack, Windows! 
+				I choose SQLite database for all my applications as its easy to setup, but have worked 
+				with Access, MySQL and SQL server 2008.
+			</p>
+			<p>
+				If you find my profile interesting enough for your job specs, then you can reach me 
+				at <em>sowmini.gundamraju @ gmail dot com</em>.									 
+			</p>
+		</div>
+		
+		<div id="footer">
+			Contact me at sowmini.gundamraju @ gmail dot com
+			<p id="footerpara">© 2010 Sowmini Gundamraju</p>
+		</div>
+		
+	</body>
+</html>
